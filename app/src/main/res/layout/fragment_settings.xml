@@ -1,14 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.SettingsFragment">
+    tools:context=".Fragments.ThemeFragment"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        layout="@layout/app_bar_main" />
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/settings"
+                    android:textSize="50sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="70dp">
+                    <TextView
+                        android:id="@+id/notifications"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notifications"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="30dp" />
+
+                    <Switch
+                        android:id="@+id/notification_switch"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="5dp"
+                        android:checked="true"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/password_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password Settings"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:id="@+id/privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:id="@+id/about_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About app"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

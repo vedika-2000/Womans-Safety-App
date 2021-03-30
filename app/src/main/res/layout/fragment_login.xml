@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        layout="@layout/app_bar_main" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,21 +15,14 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/women_safety_app"
-            android:textSize="50sp" />
-
-        <TextView
-            android:id="@+id/login_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:gravity="center_horizontal"
-            android:text="@string/login_sign_up"
-            android:textSize="25sp" />
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email"
@@ -64,8 +58,6 @@
             android:text="@string/forgot_password"
             android:layout_marginTop="10dp"
             android:layout_marginStart="260dp"
-            android:layout_marginLeft="260dp"
-            android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp"/>
 
         <Button
@@ -74,11 +66,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginStart="60dp"
-            android:layout_marginLeft="60dp"
             android:layout_marginEnd="60dp"
             android:text="@string/login"
             android:background="@drawable/button_background"/>
 
     </LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>

@@ -41,4 +41,30 @@
     <string name="theme_dark_mode">Dark Mode</string>
     <string name="theme_light_mode">Light Mode</string>
     <string name="theme_text">Make the text on screen smaller or larger</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="instructions_to_use">Instructions to use:</string>
+    <string name="instructions1">1. Enter contact details of two persons whom you would like to notify in case of an emergency</string>
+    <string name="instructions2">2. Add an emergency (favourite) contact to whom you would like to make a call in case of an emergency</string>
+    <string name="instructions3">3. Shake your phone if you feel unsafe </string>
+    <string name="instructions4">4. The app will send notifications to all the three contacts containing a link to track the live location from where the phone has been shaked</string>
+    <string name="instructions5">5. The emergency (favourite) contact will receive a call along with the notification</string>
+    <string name="about_us">About Us</string>
+    <string name="privacy">Privacy</string>
+    <string name="about_us_description1">This application has been developed by our group of 5 members:</string>
+    <string name="about_us_name1">1. Vedika Mamidwar </string>
+    <string name="about_us_name2">2. Neha Binwal </string>
+    <string name="about_us_name3">3. Alicia Sunny </string>
+    <string name="about_us_name4">4. Sneha Balwani</string>
+    <string name="about_us_name5">5. Sneha Takle</string>
+    <string name="about_us_description2">under the mentorship of Palak Mantry, Hrushikesh Bhagwat and Saif Kazi who are 3rd year students from VJTI.</string>
+    <string name="about_us_description3">We are aspiring students of VJTI from the branches IT and EXTC, currently studying in 2nd and 3rd year.</string>
+    <string name="about_us_description4">Women Safety app is a small attempt from our side to make women feel safe wherever they are.</string>
+    <string name="about_us_description5">This project is part of Skill-Up - A platform organized by two coding committees of VJTI, Developer Student Clubs (DSC) and Community of Coders (COC).</string>
+    <string name="about_us_description6">We hope that this app will provide a user friendly experience and is able to fulfil all the requirements of the user.</string>
+    <string name="about_app">About App</string>
+    <string name="about_app_description1">Women’s safety has always been an issue of grave concern. This problem is compounded during travel, especially while travelling alone.</string>
+    <string name="about_app_description2">This app aims to be a one-stop solution for such safety concerns. It enables women to get urgent and timely help in case they are in danger</string>
+    <string name="about_app_description3">By sending notifications and calls just by shaking the phone, this app serves the purpose of helping women feel safe wherever they are.</string>
+
 </resources>

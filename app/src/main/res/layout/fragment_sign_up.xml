@@ -16,7 +16,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
 
             <TextView
                 android:id="@+id/signup_title"
@@ -25,7 +26,9 @@
                 android:layout_marginTop="30dp"
                 android:gravity="center_horizontal"
                 android:text="@string/sign_up_heading"
-                android:textSize="50sp" />
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
 
             <LinearLayout
@@ -48,9 +51,9 @@
                     android:id="@+id/name_input"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="85dp"
+                    android:layout_marginStart="35dp"
                     android:layout_marginTop="15dp"
-                    android:layout_marginRight="20dp">
+                    android:layout_marginEnd="20dp">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/name_editText"
@@ -68,7 +71,7 @@
                     android:id="@+id/address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="15dp"
                     android:text="@string/address"
                     android:textColor="#000000"
@@ -78,9 +81,9 @@
                     android:id="@+id/address_input"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginStart="60dp"
                     android:layout_marginTop="15dp"
-                    android:layout_marginRight="20dp">
+                    android:layout_marginEnd="20dp">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/address_editText"
@@ -183,12 +186,12 @@
                     android:id="@+id/confirm_password_input"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:layout_marginTop="15dp">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/confirm_password_editText"
-                        android:layout_width="200dp"
+                        android:layout_width="180dp"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
