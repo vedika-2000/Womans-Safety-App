@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Woman\'s Safety App</string>
+    <string name="app_name">Women Safety App</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">App Name</string>
@@ -24,10 +24,10 @@
     <string name="confirm">Confirm</string>
     <string name="_3_contacts_for_">3 Contacts</string>
     <string name="emergency">Emergency</string>
-    <string name="women_safety_app">Womans Safety App</string>
+    <string name="women_safety_app">Women Safety App</string>
     <string name="login_sign_up">Login/SignUp</string>
     <string name="email_id">email</string>
-    <string name="login_password">passwoed</string>
+    <string name="login_password">password</string>
     <string name="forgot_password">forgot password?</string>
     <string name="login">Login</string>
     <string name="hello_blank_fragment">Hello Blank Fragment</string>
@@ -66,5 +66,9 @@
     <string name="about_app_description1">Women’s safety has always been an issue of grave concern. This problem is compounded during travel, especially while travelling alone.</string>
     <string name="about_app_description2">This app aims to be a one-stop solution for such safety concerns. It enables women to get urgent and timely help in case they are in danger</string>
     <string name="about_app_description3">By sending notifications and calls just by shaking the phone, this app serves the purpose of helping women feel safe wherever they are.</string>
+    <string name="know_more_about_the_app">Know more about the app</string>
+    <string name="main_page_description">An App developed for the safety of women</string>
+    <string name="login_signup">login / signup</string>
+    <string name="be_alert_be_safe">Be Alert! Be Safe!</string>
 
 </resources>

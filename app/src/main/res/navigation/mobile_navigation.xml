@@ -45,7 +45,17 @@
         android:id="@+id/settingsFragment"
         android:name="com.example.womanssafetyapp.Fragments.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_resetFragment"
+            app:destination="@id/resetFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutAppFragment"
+            app:destination="@id/aboutAppFragment" />
+    </fragment>
     <fragment
         android:id="@+id/themeFragment"
         android:name="com.example.womanssafetyapp.Fragments.ThemeFragment"
@@ -75,5 +85,17 @@
         android:name="com.example.womanssafetyapp.Fragments.AddContactFragment"
         android:label="fragment_add_contact"
         tools:layout="@layout/fragment_add_contact" />
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.example.womanssafetyapp.Fragments.PrivacyFragment"
+        android:label="PrivacyFragment" />
+    <fragment
+        android:id="@+id/resetFragment"
+        android:name="com.example.womanssafetyapp.Fragments.ResetFragment"
+        android:label="ResetFragment" />
+    <fragment
+        android:id="@+id/aboutAppFragment"
+        android:name="com.example.womanssafetyapp.Fragments.AboutAppFragment"
+        android:label="AboutAppFragment" />
 
 </navigation>
